@@ -1,15 +1,34 @@
 # 📊 Product KPI & Sentiment Dashboard
 
-An interactive dashboard built with Python and Streamlit to analyze sales trends alongside real-time customer review sentiment analysis. 
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://kpidashboardproject-ypvivtb3pbghfq9lnoa4ce.streamlit.app/)
 
-## Features
-* **Sales Trends:** Visualizes revenue over time using Plotly.
-* **Sentiment Analysis:** Automatically scores customer reviews using TextBlob.
-* **Interactive Filtering:** Filter metrics and charts by product category.
+An interactive, data-driven KPI dashboard that combines business performance tracking with Natural Language Processing (NLP). This application analyzes product sales trends alongside real-time customer review sentiment to give a comprehensive view of product health.
 
-## How to Run Locally
-1. Clone the repository.
-2. Create and activate a virtual environment.
-3. Install dependencies: `pip install -r requirements.txt`
-4. Download text processing corpora: `python -m textblob.download_corpora`
-5. Run the app: `streamlit run app.py`
+---
+
+## 🚀 Live Deployment
+Interact with the live application directly in your browser:  
+👉 https://kpidashboardproject-ypvivtb3pbghfq9lnoa4ce.streamlit.app/
+
+---
+
+## 🛠️ Features & Functionality
+* **Dynamic KPI Metrics:** Tracks core business metrics including Total Revenue, Average Star Rating, and a shifting Sentiment Polarity Index.
+* **Sentiment Analysis:** Utilizes `TextBlob` to evaluate raw customer review text and determine whether feedback trends are Positive, Neutral, or Negative.
+* **Interactive Visualizations:** Powered by `Plotly Express` for dual-axis tracking of sales trends over time and correlation scatter plots between user ratings and sentiment scores.
+* **Granular Filtering:** Sidebar navigation allowing users to filter analytics down to individual product lines or view global data.
+
+## 💻 Tech Stack
+* **Framework:** Streamlit
+* **Data Visualization:** Plotly Express
+* **Natural Language Processing (NLP):** TextBlob
+* **Data Manipulation:** Pandas
+
+---
+
+## 📦 Local Setup & Execution
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/chinmayshirgaonkar-ctrl/](https://github.com/chinmayshirgaonkar-ctrl/)KPI_DASHBOARD_PROJECT.git
+   cd KPI_DASHBOARD_PROJECT
